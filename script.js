@@ -20,6 +20,7 @@ function save()
 function reset()
 {
     count=0
+    countEl.textContent=count
     previous.textContent=""
 }
 
