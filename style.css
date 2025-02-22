@@ -1,0 +1,85 @@
+.container{
+    width: 40%;
+    margin:auto;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.75);
+     box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.75);
+     margin-top:10vh;
+     
+}
+body{
+    background-image: linear-gradient(rgb(169, 202, 235), rgb(235, 235, 94));
+    background-repeat: no-repeat;
+    height: 88.5vh;
+}
+button{
+    width: 130px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 7px;
+    border-color: rgb(113, 108, 108);
+    border: none;
+    -webkit-box-shadow: 1px 1px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 11px 0px rgba(0,0,0,0.75);
+     box-shadow: 1px 1px 11px 0px rgba(0,0,0,0.75);
+}
+#Inc_btn{
+    background-color: rgb(241, 78, 78);
+
+}
+#dec_btn{
+    background-color: rgb(96, 225, 60);
+    
+}
+#save_btn{
+    background-color: rgb(144, 187, 253);
+
+}
+#reset_btn{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 50px;
+}
+#count_val{
+    font-size: 70px;
+}
+
+
+
+@media screen and (max-width: 710px) {
+    .container{
+        width: 60%;
+        padding: 10px;
+    }
+    button{
+        margin-top: 10px;
+    }
+
+  }
+  @media screen and (max-width: 1200px) {
+    button{
+        margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 489px) {
+      button{
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+         box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+      }
+      .container{
+        width:70%;
+      }
+      h1{
+        font-size: 30px;
+      }
+      #count_val{
+        font-size: 35px;
+      }
+  }
